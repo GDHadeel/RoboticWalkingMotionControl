@@ -31,7 +31,7 @@ This repository includes an algorithm to control servo motors for shaping a robo
    
 Develop and simulate the electronic circuit for the six servo motors.
 
-![6 servo motors](https://github.com/GDHadeel/Servo-Controlled-Robot-Legs/assets/126657301/015f3233-986b-4812-af7a-33064e8bcb39)
+![6 servo motors](https://github.com/GDHadeel/RoboticWalkingMotionControl/assets/126657301/825dc10a-9be9-41ea-af0d-a68f8ddc271a)
 
 2. Code:
    
