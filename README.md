@@ -1,6 +1,5 @@
 # RoboticWalkingMotionControl
 
-# Servo-Controlled-Robot-Legs
 ## Description
 This repository includes an algorithm to control servo motors for shaping a robot's walking motion. Task 1 focuses on developing precise movements, while Task 2 integrates and simulates a circuit with six servo motors for implementation.
 
