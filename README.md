@@ -38,7 +38,7 @@ Develop and simulate the electronic circuit for the six servo motors.
    
 The code to control the six servo motors is provided in a separate file. The code initializes the servos and performs basic movements to demonstrate the setup.
 
-The detailed code file can be found here: https://github.com/GDHadeel/Servo-Controlled-Robot-Legs/blob/main/6ServoMotors.cpp
+The detailed code file can be found here: https://github.com/GDHadeel/RoboticWalkingMotionControl/blob/main/6ServoMotors.cpp
 
 ## Acknowledgments
 
