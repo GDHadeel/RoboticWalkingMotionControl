@@ -16,8 +16,8 @@ This repository includes an algorithm to control servo motors for shaping a robo
    * Establish the length of each step, the height of the foot lift, and the movement speed.
    * These parameters will control the angular positions and speeds of the servos.
 
-3. Leg Movement Loop**:
-   - Lift the Leg:
+3. Leg Movement Loop:
+- Lift the Leg:
    * Hip Servo: Incrementally rotate the hip servo forward from its initial position (e.g., from 90 to 120 degrees).
    * Knee Servo: Bend the knee servo to lift the foot (e.g., decrease angle to 60 degrees).
    * Timing: Introduce a delay between angle adjustments to ensure smooth motion.
