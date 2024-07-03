@@ -8,8 +8,6 @@ This repository includes an algorithm to control servo motors for shaping a robo
 
 * Algorithm Steps:
   
-
-### Algorithm for Operating Servo Motors for Robot's Walking Motion
 1. Initialization:
    * Attach Servos: Connect the hip and knee servos to the appropriate pins on the microcontroller.
    * Set Initial Positions: Set both the hip and knee servos at neutral positions, typically around 90 degrees, to prepare the robot to stand still.
