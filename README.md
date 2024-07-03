@@ -15,34 +15,32 @@ This repository includes an algorithm to control servo motors for shaping a robo
    * Set Initial Positions: Set both the hip and knee servos at neutral positions, typically around 90 degrees, to prepare the robot to stand still.
 
 2. Define Parameters:
-   - Establish the length of each step, the height of the foot lift, and the movement speed.
-   - These parameters will control the angular positions and speeds of the servos.
+   * Establish the length of each step, the height of the foot lift, and the movement speed.
+   * These parameters will control the angular positions and speeds of the servos.
 
 3. Leg Movement Loop**:
-   - **Lift the Leg**:
-     - **Hip Servo**: Incrementally rotate the hip servo forward from its initial position (e.g., from 90 to 120 degrees).
-     - **Knee Servo**: Bend the knee servo to lift the foot (e.g., decrease angle to 60 degrees).
-     - **Timing**: Introduce a delay between angle adjustments to ensure smooth motion.
+   **Lift the Leg**:
+   * Hip Servo: Incrementally rotate the hip servo forward from its initial position (e.g., from 90 to 120 degrees).
+   * Knee Servo: Bend the knee servo to lift the foot (e.g., decrease angle to 60 degrees).
+   * Timing: Introduce a delay between angle adjustments to ensure smooth motion.
 
-   - **Swing the Leg Forward**:
-     - **Hip Servo**: Gradually rotate the hip servo backward to move the foot forward (e.g., from 120 back to 90 degrees).
-     - **Knee Servo**: Straighten the knee servo to bring the foot forward (e.g., increase angle back to 90 degrees).
-     - **Timing**: Maintain consistent timing delays for fluid motion.
+  **Swing the Leg Forward**:
+     * Hip Servo: Gradually rotate the hip servo backward to move the foot forward (e.g., from 120 back to 90 degrees).
+     * Knee Servo: Straighten the knee servo to bring the foot forward (e.g., increase angle back to 90 degrees).
+     * Timing: Maintain consistent timing delays for fluid motion.
 
    - **Lower the Leg**:
-     - **Knee Servo**: Extend the knee servo to lower the foot onto the ground (e.g., from 90 back to 120 degrees).
-     - **Hip Servo**: Adjust the hip servo to position the foot correctly on the ground (e.g., maintain at 90 degrees).
+     * Knee Servo: Extend the knee servo to lower the foot onto the ground (e.g., from 90 back to 120 degrees).
+     * Hip Servo: Adjust the hip servo to position the foot correctly on the ground (e.g., maintain at 90 degrees).
 
-   - **Shift Weight**:
-     - Adjust both hip servos to shift the body’s weight onto the forward leg for balance.
+   - Shift Weight:
+     * Adjust both hip servos to shift the body’s weight onto the forward leg for balance.
 
-4. **Repeat for the Opposite Leg**:
-   - Execute the same movements with the other leg, mirroring the sequence of actions.
+4. Repeat for the Opposite Leg:
+   * Execute the same movements with the other leg, mirroring the sequence of actions.
 
-5. **Continue the Cycle**:
-   - Loop through the walking cycle, continuously adjusting the angles and speeds of all hip and knee servos to maintain a smooth and balanced walking motion.
-
-By following this algorithm, you can program the servos to coordinate the hip and knee movements, creating a realistic walking motion for your robot.
+5. Continue the Cycle:
+   * Loop through the walking cycle, continuously adjusting the angles and speeds of all hip and knee servos to maintain a smooth and balanced walking motion.
 
 
 # Task 2: Connect and Program an Electronic Circuit Containing 6 Servo Motors in a Simulation Program
