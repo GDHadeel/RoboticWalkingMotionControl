@@ -22,12 +22,12 @@ This repository includes an algorithm to control servo motors for shaping a robo
    * Knee Servo: Bend the knee servo to lift the foot (e.g., decrease angle to 60 degrees).
    * Timing: Introduce a delay between angle adjustments to ensure smooth motion.
 
-  **Swing the Leg Forward**:
+  - Swing the Leg Forward:
      * Hip Servo: Gradually rotate the hip servo backward to move the foot forward (e.g., from 120 back to 90 degrees).
      * Knee Servo: Straighten the knee servo to bring the foot forward (e.g., increase angle back to 90 degrees).
      * Timing: Maintain consistent timing delays for fluid motion.
 
-   - **Lower the Leg**:
+   - Lower the Leg:
      * Knee Servo: Extend the knee servo to lower the foot onto the ground (e.g., from 90 back to 120 degrees).
      * Hip Servo: Adjust the hip servo to position the foot correctly on the ground (e.g., maintain at 90 degrees).
 
