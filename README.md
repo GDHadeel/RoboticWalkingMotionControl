@@ -3,6 +3,8 @@
 ## Description
 This repository includes an algorithm to control servo motors for shaping a robot's walking motion. Task 1 focuses on developing precise movements, while Task 2 integrates and simulates a circuit with six servo motors for implementation.
 
+---
+
 # Task 1: Algorithm for Operating Servo Motors to Shape Robotic Walking Motion
 * Objective: Develop an algorithm to control the servo motors for simulating a walking motion.
 
@@ -40,6 +42,7 @@ This repository includes an algorithm to control servo motors for shaping a robo
 5. Continue the Cycle:
    * Loop through the walking cycle, continuously adjusting the angles and speeds of all hip and knee servos to maintain a smooth and balanced walking motion.
 
+---
 
 # Task 2: Connect and Program an Electronic Circuit Containing 6 Servo Motors in a Simulation Program
 
@@ -56,6 +59,8 @@ Develop and simulate the electronic circuit for the six servo motors.
 The code to control the six servo motors is provided in a separate file. The code initializes the servos and performs basic movements to demonstrate the setup.
 
 The detailed code file can be found here: https://github.com/GDHadeel/RoboticWalkingMotionControl/blob/main/6ServoMotors.cpp
+
+---
 
 ## Acknowledgments
 
