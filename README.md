@@ -5,7 +5,7 @@ This repository includes an algorithm to control servo motors for shaping a robo
 
 ---
 
-# Task 1: Algorithm for Operating Servo Motors to Shape Robotic Walking Motion
+# Task 1: Write an algorithm for operating servo motors to shape the robot’s walking movement
 * Objective: Develop an algorithm to control the servo motors for simulating a walking motion.
 
 * Algorithm Steps:
